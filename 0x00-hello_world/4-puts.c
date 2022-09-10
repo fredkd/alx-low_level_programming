@@ -1,7 +1,13 @@
 #include <stdio.h>
 
+/**
+*
+*Using main as funtion
+*Description : Using puts to print
+*Return (0)
+*/
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return(0);
+	puts ("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
