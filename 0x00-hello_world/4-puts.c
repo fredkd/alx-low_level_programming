@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
-*
-*Using main as funtion
-*Description : Using puts to print
-*Return (0)
+* main - this is the main function
+* description- starting point of the program
+* Return : 0 as a success
 */
 int main(void)
 {
