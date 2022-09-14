@@ -10,13 +10,13 @@ void test_islower(int n)
 {
 	int r;
 
-	r = _islower(n);
+	r = islower(n);
 	_putchar(r + '0');
 	_putchar('\n');
 }
 
 /**
- * main - check the code for Holberton School students.
+ * main - check the code 
  *
  * Return: Always 0.
  */
