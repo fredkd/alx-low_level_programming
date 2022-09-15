@@ -1,27 +1,21 @@
-
 #include "main.h"
 
 /**
- * test_islower - Test the _islower function
+ * _islower - Test the _islower function
  *
- * @n: Number to pass to _islower function
+ * @c: Number to pass to _islower function
+ * Return : 1 if int c is lowrcase, 0 otherwise
  */
-void test_islower(int n)
-{
-	int r;
 
-	r = islower(n);
-	_putchar(r + '0');
-	_putchar('\n');
-}
 
-/**
- * main - check the code 
- *
- * Return: Always 0.
- */
-int main(void)
+int _islower(int c)
 {
-	test_islower('H');
-	return (0);
+	if (c >= 'a' && c <= 'z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
