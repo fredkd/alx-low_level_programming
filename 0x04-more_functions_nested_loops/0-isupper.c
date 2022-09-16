@@ -15,8 +15,9 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	else
+	else if((c >= 'a') && (c <= 'z'))
 	{	
 		return (0);
 	}
+	return _isupper;
 }
