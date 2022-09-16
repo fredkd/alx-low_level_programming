@@ -13,10 +13,11 @@ int _isupper(int c)
 
 	if ((c >= 'A') && (c <= 'Z'))
 	{
+		_isupper(c);
 		return (1);
 	}
 	else
-	{
+	{	_isupper(c);
 		return (0);
 	}
 }
