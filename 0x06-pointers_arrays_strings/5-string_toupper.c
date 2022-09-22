@@ -6,9 +6,10 @@
  * Return: string
  */
 
-char *string_toupper(char *x)
+char *string_toupper(char *)
 {
 	int i = 0;
+	char x;
 	A = 65, a = 97;
 	while (x[i])
 	{
