@@ -23,5 +23,9 @@ int main(void)
 
 	}
 
+<<<<<<< HEAD
 	return(0);
+=======
+	return (0);
+>>>>>>> 729d91988abf7696a1fcf3c3c635127964f05ef2
 }

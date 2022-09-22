@@ -1,13 +1,5 @@
 #include <stdio.h>
 
-<<<<<<< HEAD
-int main(void)
-{
-	int i;
-
-	i = 0;
-	while (i < 
-=======
 /**
  * main - Entry point
  * Description: prints all possible combinations of single-digit numbers
@@ -34,4 +26,3 @@ int main(void)
 
 	return (0);
 }
->>>>>>> 729d91988abf7696a1fcf3c3c635127964f05ef2
