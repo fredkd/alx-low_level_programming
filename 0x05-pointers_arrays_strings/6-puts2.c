@@ -6,7 +6,7 @@
  * @i: parameter used
  * Return : 0 
  */
-void puts2(char *str);
+void puts2(char *str)
 {
 	int len, i;
 	len = srtlen(str)
