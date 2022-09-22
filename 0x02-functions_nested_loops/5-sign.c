@@ -5,7 +5,6 @@
  * @n: input letter
  * Return: Always success
  */
-
 int print_sign(int n)
 {
 	if (n > 0)
@@ -20,7 +19,7 @@ int print_sign(int n)
 	}
 	else 
 	{
-		_putchar('_');
+		_Putchar('-');
 		return (-1);
 	}	
 }
