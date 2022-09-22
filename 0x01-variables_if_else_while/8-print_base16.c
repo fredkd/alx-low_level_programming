@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - This is the start of the code
- * @i: parameter used
- * @j: parameter used
+ * main - This is the start of the coded
  * Return: 0 success
  */
 int main(void)
 {
-	char i;
+	int i;
 	char j;
 
 	for (i = 0; i <= 9; i++)
