@@ -5,9 +5,8 @@
 
 
 /**
- * main - main.h
  * main - entry point
- * Return :0 always (success)
+ * Return: 0 always (success)
  */
 int main(void)
 {
