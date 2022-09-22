@@ -1,22 +1,12 @@
 #include <stdio.h>
 
-/**
- * main - This is the start of the code
- * Return: 0 always success
- */
 int main(void)
 {
-	char c;
+	int i;
+	int j;
 
-	for (i = 'a'; i <= 'z'; ++i)
-
-		putchar(i);
-	for (i = 'A'; i <= 'Z'; ++i)
-
-		putchar(i);
-
-	putchar('\n')
-
-
-	return(0);
-}
+	for (i = 'a'; i <= 'z'; i++)
+		for (j = 'A'; j <= 'Z'; j++)
+		while (i < 'z')
+		{
+			putchar (i
