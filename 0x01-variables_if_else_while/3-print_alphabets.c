@@ -1,12 +1,23 @@
 #include <stdio.h>
 
+/**
+ * main - this is the start of the code
+ * @i: char used
+ * @J: char used
+ * Return: 0 Always (success)
+ */
 int main(void)
 {
-	int i;
-	int j;
+	char i;
+	char j;
 
 	for (i = 'a'; i <= 'z'; i++)
-		for (j = 'A'; j <= 'Z'; j++)
-		while (i < 'z')
-		{
-			putchar (i
+	{
+		putchar(i);
+	}
+	for (j = 'A'; J <= 'Z'; j++)
+	{
+		putchar(j);
+	}
+	return (0);
+}
