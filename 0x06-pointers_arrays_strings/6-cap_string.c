@@ -1,23 +1,32 @@
 #include "main.h"
+#include <stdio.h>
 
-/** cap_string - capitalization
- * @x: first parpam
- * Return : uppercase
- */
-char *cap_string(char *x)
+/**
+  * cap_string - ...
+  * @s: ...
+  *
+  * Return: char value
+  */
+char *cap_string(char *s)
 {
-	int i = 0;
-	
-	while (x[i])
+	int a = 0, i;
+	int cspc = 13;
+	char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
+
+	while (s[a])
 	{
-		while (!(x[i] >= 'a' && x[i] <= 'z'))
+		i = 0;
+
+		while (i < cspc)
 		{
+			if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
+				s[a] -= 32;
+
 			i++;
 		}
-		if (x[i - 1] == ' ' || x[i - 1] == '\t' || x[i - 1] == '\n' || x[i - 1] == ',' || x[i - 1] == ';' || x[i - 1] == '.' || x[i - 1] == '!' || x[i - 1] == '?' || x[i - 1] == '"' || x[i - 1] == '(' || x[i - 1] == ')' || x[i - 1] == '{' || x[i - 1] == '}' || i == 0 )
-		{
-			x[i] -= 32;
-		}
-		i++;
+
+		a++;
 	}
+
+	return (s);
 }
