@@ -1,35 +1,24 @@
 #include <stdio.h>
-<<<<<<< HEAD
 
 /**
- * main - This is the start of the code
- * @i: parameter used
- * @j: parameter used
-=======
-#include <stdlib.h>
-
-/**
- * main - This is the start of the coded
->>>>>>> 729d91988abf7696a1fcf3c3c635127964f05ef2
- * Return: 0 success
- */
+  * main - Prints a hexadecimal string
+  *
+  * Return: Always (Success)
+  */
 int main(void)
 {
-<<<<<<< HEAD
-	char i;
-=======
-	int i;
->>>>>>> 729d91988abf7696a1fcf3c3c635127964f05ef2
-	char j;
+	char c;
 
-	for (i = 0; i <= 9; i++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		putchar(i);
+		putchar(c);
 	}
-	for (j = 'a'; j <= 'f'; j++)
+
+	for (c = 'a'; c <= 'f'; c++)
 	{
-		putchar(j);
+		putchar(c);
 	}
+
 	putchar('\n');
 
 	return (0);
