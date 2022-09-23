@@ -1,32 +1,40 @@
 #include <stdio.h>
-/**
- * main - function that checks for uppercase
- * Return: 0
- */
 
+/**
+  * main - Prints a Fizz Buzz program
+  *
+  * Return: Always 0 (Success)
+  */
 int main(void)
 {
-	int n = 1;
+	int x;
 
-	while (n <= 100)
+	for (x = 1; x <= 100; x++)
 	{
-		if (n % 3 == 0 && n % 5 == 0)
-			printf("FizzBuzz ");
-		else if (n % 5 == 0)
+		if ((x % 3 == 0) && (x % 5 == 0))
 		{
-			if (n == 100)
-			{
-				printf("Buzz");
-				printf("\n");
-			}
-			else
-				printf("Buzz ");
+			printf("FizzBuzz");
 		}
-		else if (n % 3 == 0)
-			printf("fizz ");
+		else if (x % 3 == 0)
+		{
+			printf("Fizz");
+		}
+		else if (x % 5 == 0)
+		{
+			printf("Buzz");
+		}
 		else
-			printf("%d ", h);
-	h++;
+		{
+			printf("%d", x);
+		}
+
+		if (x != 100)
+		{
+			printf(" ");
+		}
 	}
-return (0);
+
+	printf("\n");
+
+	return (0);
 }
