@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _puts - prints a string, followed by a new line
- * @*str: parameter used
+ * @str: parameter used
  *  return: void
  */
 
