@@ -20,7 +20,7 @@ int main(void)
 				printf("\n");
 			}
 			else
-				printf("Buzz ")'
+				printf("Buzz ");
 		}
 		else if (n % 3 == 0)
 			printf("fizz ");
