@@ -11,9 +11,9 @@ int main(void)
 
 	for (i = 100; i <= 999; i++)
 	{
-		_putchar(i);
+		putchar(i);
 	}
-	_putchar(',');
+	putchar(',');
 
 	return (0);
 }
