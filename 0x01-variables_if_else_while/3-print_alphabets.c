@@ -2,8 +2,6 @@
 
 /**
  * main - this is the start of the code
- * @i: char used
- * @J: char used
  * Return: 0 Always (success)
  */
 int main(void)
