@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_diagonal - function that draws diagonals
  * @n: parameter userd
@@ -13,7 +12,7 @@ void print_diagonal(int n)
 
 	if (n > 0)
 	{
-		while (a < a)
+		while (a < n)
 		{
 			while (b < a)
 			{
