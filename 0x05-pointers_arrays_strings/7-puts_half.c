@@ -3,9 +3,7 @@
 
 /**
  * puts_half - start of the code
- * @x: int used
- * @y: int used
- * @i: int used
+ * @str: param used
  * Return: str
  */
 void puts_half(char *str)
@@ -17,7 +15,7 @@ void puts_half(char *str)
 	{
 		y = x / 2 + 1;
 	}
-	else 
+	else
 	{
 		y = x / 2;
 	}
