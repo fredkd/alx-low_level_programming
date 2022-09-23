@@ -3,7 +3,7 @@
 
 /**
  * rev_string - reverses a string
- * @*s : parameter used
+ * @s : parameter used
  *  return: void
  */
 
@@ -14,7 +14,6 @@ void rev_string(char *s)
 
 	for (i = '\0'; s[i] != 0; i++)
 	{
-	
 	}
 	r_s = 0;
 	for (i = i - 1; r_s < i; r_s++)
