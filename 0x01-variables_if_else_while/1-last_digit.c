@@ -5,14 +5,11 @@
 /* betty style doc for function main goes there */
 /**
  * main - this is the start of the code
- * @n: parameter used
- * @l: checks for last digit of n
  * Return: 0 always (success)
  */
 int main(void)
 {
-	int n;
-	int l;
+	int n, l;
 	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
