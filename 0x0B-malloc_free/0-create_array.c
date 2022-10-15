@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * *create_array - creates an array of characters and initializes it with 
+ * *create_array - creates an array of characters and initializes it with
  * a special character
  *
  * @size: parameter used int
@@ -22,7 +22,7 @@ char *create_array(unsigned int size, char c)
 
 	if (size == 0)
 	{
-		return 0;
+		return (0);
 	}
 
 	if (m == NULL)
