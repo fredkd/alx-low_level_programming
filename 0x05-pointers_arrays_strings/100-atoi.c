@@ -11,11 +11,12 @@
 int _atoi(char *s)
 {
 	int i;
+	char t;
 	s = t;
 
 	for (i = 0; t[i] != '\0'; i++)
 	{
-		for (t = 'a', t <= 'z'; t++)
+		for (t = 'a'; t <= 'z'; t++)
 		{
 			if (t != 'a' || t != 'z')
 			{
