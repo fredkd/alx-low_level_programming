@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _atoi - converts a string to an integer
+i * _atoi - converts a string to an integer
  *
  * *s: param used
  *
@@ -12,7 +12,7 @@ int _atoi(char *s)
 {
 	char i;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; s != '\0'; i++)
 	{
 		for (s = 'a'; s <= 'z'; s++)
 		{
