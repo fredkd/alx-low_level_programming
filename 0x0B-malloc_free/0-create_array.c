@@ -40,8 +40,4 @@ char *create_array(unsigned int size, char c)
 	}
 
 	return (m);
-
-	if (size == 0)
-		return 0;
-
-
+}
