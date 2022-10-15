@@ -11,25 +11,26 @@
 int _atoi(char *s)
 {
 	int i;
+	char t = &s;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; t[i] != '\0'; i++)
 	{
-		for (s = 'a', s <= 'z'; s++)
+		for (t = 'a', t <= 'z'; t++)
 		{
-			if (s != 'a' || s != 'z')
+			if (t != 'a' || t != 'z')
 			{
 				continue;
 			}
 		}
 		
-		if ((s != " \" ") || (s != " - ") || (s != " + "))
+		if ((t != " \" ") || (t != " - ") || (t != " + "))
 		{
 			continue;
 		}
 
-		for (s = 0; s <= 9; s++)
+		for (t = 0; t <= 9; t++)
 		{
-			_putchar(*s);
+			_putchar(t);
 		}
 	}
 
