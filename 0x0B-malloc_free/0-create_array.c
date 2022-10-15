@@ -17,11 +17,11 @@ char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
 	char *m;
-	
+
 	m = malloc(sizeof(char) * size);
-	
+
 	if (size == 0)
-	{  
+	{
 		return 0;
 	}
 
@@ -31,10 +31,9 @@ char *create_array(unsigned int size, char c)
 	}
 
 	i = 0;
-	
+
 	while (i < size)
 	{
-		_putchar('*');
 		m[i] = c;
 		i++;
 	}
