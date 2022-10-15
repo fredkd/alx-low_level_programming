@@ -29,7 +29,7 @@ int _atoi(char *s)
 
 		for (s = 0; s <= 9; s++)
 		{
-			_putchar(s);
+			_putchar(*s);
 		}
 	}
 
