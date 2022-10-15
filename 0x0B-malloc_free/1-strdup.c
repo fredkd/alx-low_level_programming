@@ -18,7 +18,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	
+
 	for (i = 0; str[i]; i++)
 	{
 		;
@@ -31,7 +31,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	
+
 	for (j = 0; j < i; j++)
 	{
 		str1[j] = str[j];
