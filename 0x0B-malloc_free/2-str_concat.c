@@ -10,7 +10,7 @@
  *
  * @s2:param used
  *
- * Return : 0 Always success
+ * Return: pointer
  */
 
 char *str_concat(char *s1, char *s2)
