@@ -4,11 +4,11 @@
 
 
 /**
- * str_concat - concatenates two strings
+ *str_concat - concatenates two strings
  *
- * *s1: param used
+ * @s1: param used
  *
- * *s2:param used
+ * @s2:param used
  *
  * Return : 0 Always success
  */
@@ -33,7 +33,7 @@ char *str_concat(char *s1, char *s2)
 		;
 	}
 
-	c = malloc((sizeof(char) * i) + sizeof(char) * j);
+	c = malloc((sizeof(char) * i) + (sizeof(char) * j)+ 1);
 
 	if (c == NULL)
 	{
@@ -58,6 +58,3 @@ char *str_concat(char *s1, char *s2)
 
 	return (c);
 }
-
-
-	
