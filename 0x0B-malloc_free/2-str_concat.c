@@ -42,19 +42,19 @@ char *str_concat(char *s1, char *s2)
 
 	while (*s1 != '\0')
 	{
-		c[a] = *s1;
+		c[m] = *s1;
 		s1++;
 		a++;
 	}
 
 	while (*s2 != '\0')
 	{
-		c[a] = *s2;
+		c[m] = *s2;
 		s2++;
 		a++;
 	}
 
-	c[a] = '\0';
+	c[m] = '\0';
 
 	return (c);
 }
