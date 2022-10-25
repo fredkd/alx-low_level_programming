@@ -12,7 +12,7 @@
  * Return: NULL IF ac == 0 or av == NULL
  */
 
-char *argstostr(int ac, char **av);
+char *argstostr(int ac, char **av)
 {
 	char *c;
 	int i, j, size = 0 , k = 0;
