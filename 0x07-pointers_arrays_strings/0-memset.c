@@ -5,7 +5,7 @@
  * @s: memory area
  * @b: constant byte
  * @n: data
- * Return: b
+ * Return: alway 0 (success)
  */
 
 char *_memset(char *s, char b, unsigned int n)
@@ -17,5 +17,5 @@ char *_memset(char *s, char b, unsigned int n)
 		s[i] = b;
 	}
 
-	return (b);
+	return (s);
 }
