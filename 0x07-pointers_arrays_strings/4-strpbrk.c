@@ -5,9 +5,9 @@
  *
  * @s: string
  *
- * @accept:bytes used
+ * @accept: string
  *
- * Return: pointer to the byte s
+ * Return: NULL
  *
  */
 
