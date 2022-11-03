@@ -8,7 +8,7 @@
  * Return: void
  */
 
-void print_chessboard(*a[8])
+void print_chessboardi(char (*a)[8])
 {
 	int x;
 	int y;
