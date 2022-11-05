@@ -19,13 +19,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	int i, a = 0;
 	int j;
 
-	if (s1 == NULL)
+	if (s1 == 0)
 	{
-		return (NULL);
+		s1 = ""; 
 	}
-	if (s2 == NULL)
+	if (s2 == 0)
 	{
-		return (NULL);
+		s2 = "";
 	}
 
 	for (i = 0; s1[i];i++)
