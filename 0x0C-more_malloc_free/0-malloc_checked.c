@@ -10,15 +10,15 @@
 
 void *malloc_checked(unsigned int b)
 {
-	int *s;
+	char *s;
 
 	s = malloc(sizeof(int) * b);
 
 	if (s == NULL)
 	{
-		return (1);
+		exit(98);
 	}
 
-	return (&(s);
+	return (s);
 }
 	
